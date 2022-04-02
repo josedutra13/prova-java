@@ -1,7 +1,7 @@
-package br.com.confidencecambio.javabasico.controller;
+package br.com.confidencecambio.javabasico.imc.controller;
 
 import br.com.confidencecambio.javabasico.imc.model.Imc;
-import br.com.confidencecambio.javabasico.service.ImcService;
+import br.com.confidencecambio.javabasico.imc.service.ImcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,7 @@
-package br.com.confidencecambio.javabasico.service;
+package br.com.confidencecambio.javabasico.imc.service;
 
-import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 
-import java.util.Optional;
 
 @Component
 public class ImcService {
