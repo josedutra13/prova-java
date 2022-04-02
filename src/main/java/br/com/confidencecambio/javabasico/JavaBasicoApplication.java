@@ -14,7 +14,7 @@ public class JavaBasicoApplication {
 
 
 
-		Robo robo = new Robo("José de Oliveira");
+		Robo robo = new Robo("José Dutra de Oliveira");
 		robo.nomeDaClasse();
 		if (robo.validaNome(robo.getNome())){
 			robo.obtemPrimeiroNome(robo.getNome());
