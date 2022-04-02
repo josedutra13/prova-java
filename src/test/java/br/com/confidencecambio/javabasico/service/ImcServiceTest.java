@@ -1,10 +1,8 @@
 package br.com.confidencecambio.javabasico.service;
 
 
+import br.com.confidencecambio.javabasico.imc.service.ImcService;
 import org.junit.Before;
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class ImcServiceTest {
 
@@ -14,20 +12,5 @@ public class ImcServiceTest {
     public void init(){
          service= new ImcService();
     }
-
-
-//    @Test
-//    public void quandoPassarUmNomeQueroEleDeResposta(){
-//        var nome = "Meu Nome";
-//        String valorValido = service.retornaValorValido(nome);
-//        assertEquals(nome,valorValido);
-//    }
-//
-//    @Test
-//    public void quandoPassarNuloQueroOPadrao(){
-//
-//        String valorValido = service.retornaValorValido(null);
-//        assertEquals("Mundo",valorValido);
-//    }
 
 }
